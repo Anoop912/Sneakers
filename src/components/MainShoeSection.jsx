@@ -3,20 +3,20 @@ import Card from "./Card";
 
 function MainShoeSection() {
   const products = [
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 10 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 310, oldPrice: 300, rating: 4, discount: 20 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 410, oldPrice: 300, rating: 4 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 110, oldPrice: 300, rating: 4, discount: 10 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 310, oldPrice: 300, rating: 4 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 30 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 10 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 10 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 50 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 50 },
-    { img: 'src/assets/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 50 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 10 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 310, oldPrice: 300, rating: 4, discount: 20 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 410, oldPrice: 300, rating: 4 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 110, oldPrice: 300, rating: 4, discount: 10 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 310, oldPrice: 300, rating: 4 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 30 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 10 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 10 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 50 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 50 },
+    { img: '/product/1.jpg', title: 'Nike react hyperDunk', price: 210, oldPrice: 300, rating: 4, discount: 50 },
   ];
 
   const itemsPerPage = 12;

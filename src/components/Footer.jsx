@@ -14,7 +14,7 @@ function Footer() {
             </h1>
 
             <p className="font-semibold text-lg mb-3 flex gap-2 items-center">
-              <img className="h-8" src="src/assets/headset.png" alt="headset" />
+              <img className="h-8" src="/product/headset.png" alt="headset" />
               +(012) 800 456 789
             </p>
 
@@ -26,18 +26,18 @@ function Footer() {
             {/* SOCIAL ICONS */}
             <div className="flex gap-2 mt-4">
               <div className="p-2 bg-gray-800 cursor-pointer rounded-md">
-                <img className="h-8" src="src/assets/social.png" alt="social" />
+                <img className="h-8" src="/product/social.png" alt="social" />
               </div>
               <div className="p-2 bg-gray-800 cursor-pointer rounded-md">
-                <img className="h-8" src="src/assets/twitter.png" alt="social" />
+                <img className="h-8" src="/product/twitter.png" alt="social" />
               </div>
               <div className="p-2 bg-gray-800 cursor-pointer rounded-md">
-                <img className="h-8" src="src/assets/play.png" alt="social" />
+                <img className="h-8" src="/product/play.png" alt="social" />
               </div>
               <div className="p-2 bg-gray-800 cursor-pointer rounded-md">
                 <img
                   className="h-8"
-                  src="src/assets/instagram.png"
+                  src="/product/instagram.png"
                   alt="social"
                 />
               </div>
@@ -102,10 +102,10 @@ function Footer() {
 
           {/* PAYMENT CARDS */}
           <div className="flex justify-center gap-4 flex-wrap">
-            <img src="src/assets/visa.png" alt="visa" className="h-10 md:h-14" />
-            <img src="src/assets/logo.png" alt="mastercard" className="h-10 md:h-14" />
-            <img src="src/assets/paypal.png" alt="paypal" className="h-10 md:h-14" />
-            <img src="src/assets/skrill.png" alt="skrill" className="h-10 md:h-14" />
+            <img src="/product/visa.png" alt="visa" className="h-10 md:h-14" />
+            <img src="/product/logo.png" alt="mastercard" className="h-10 md:h-14" />
+            <img src="/product/paypal.png" alt="paypal" className="h-10 md:h-14" />
+            <img src="/product/skrill.png" alt="skrill" className="h-10 md:h-14" />
           </div>
 
           {/* COPYRIGHT */}
